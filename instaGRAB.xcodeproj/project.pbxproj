@@ -13,6 +13,7 @@
 		68AF8ADE1C53450000C5B2D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68AF8ADD1C53450000C5B2D0 /* Assets.xcassets */; };
 		68AF8AE11C53450000C5B2D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68AF8ADF1C53450000C5B2D0 /* LaunchScreen.storyboard */; };
 		68AF8AEF1C53489100C5B2D0 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AF8AEE1C53489100C5B2D0 /* PhotosViewController.swift */; };
+		68AF8AF21C534F3000C5B2D0 /* PhotosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AF8AF11C534F3000C5B2D0 /* PhotosTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		68AF8AE01C53450000C5B2D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68AF8AE21C53450000C5B2D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68AF8AEE1C53489100C5B2D0 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		68AF8AF11C534F3000C5B2D0 /* PhotosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosTableViewCell.swift; sourceTree = "<group>"; };
 		6EBF6D6024CC4189157BEEEE /* Pods-instaGRAB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instaGRAB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-instaGRAB/Pods-instaGRAB.debug.xcconfig"; sourceTree = "<group>"; };
 		8C51F9FC3D67D69F978875E9 /* Pods_instaGRAB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instaGRAB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DB5B6435D52CC99716F4E1 /* Pods-instaGRAB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instaGRAB.release.xcconfig"; path = "Pods/Target Support Files/Pods-instaGRAB/Pods-instaGRAB.release.xcconfig"; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				68AF8ADF1C53450000C5B2D0 /* LaunchScreen.storyboard */,
 				68AF8AE21C53450000C5B2D0 /* Info.plist */,
 				68AF8AF01C5348D100C5B2D0 /* ViewControllers */,
+				68AF8AF31C534F4100C5B2D0 /* Cells */,
 			);
 			path = instaGRAB;
 			sourceTree = "<group>";
@@ -77,6 +80,14 @@
 				68AF8AEE1C53489100C5B2D0 /* PhotosViewController.swift */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		68AF8AF31C534F4100C5B2D0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				68AF8AF11C534F3000C5B2D0 /* PhotosTableViewCell.swift */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 		85B0736898695846CAA2A09D /* Pods */ = {
@@ -218,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68AF8AF21C534F3000C5B2D0 /* PhotosTableViewCell.swift in Sources */,
 				68AF8AD71C53450000C5B2D0 /* AppDelegate.swift in Sources */,
 				68AF8AEF1C53489100C5B2D0 /* PhotosViewController.swift in Sources */,
 			);

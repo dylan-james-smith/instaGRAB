@@ -7,16 +7,19 @@
 //
 
 import UIKit
+import AFNetworking
 
 
 class PhotosViewController: UIViewController {
 
+    @IBOutlet weak var photoTableView: UITableView!
     var igAPI: [NSDictionary]?
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        photoTableView.rowHeight = 320
+        
         let clientId = "Put your client id here"
         let url = NSURL(string:"https://api.instagram.com/v1/media/popular?client_id=\(clientId)")
         let request = NSURLRequest(URL: url!)
